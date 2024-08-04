@@ -44,30 +44,30 @@ const Main = () => {
               <div
                 className="card"
                 onClick={() =>
-                  handleCardClick("Suggest Some Place To Visit In Kerala")
+                  handleCardClick("Suggest Some Place To Visit In Rajasthan")
                 }
               >
-                <p>Suggest Some Place To Visit In Kerala </p>
+                <p>Suggest Some Place To Visit In Rajasthan </p>
                 <img src={assets.compass_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
                   handleCardClick(
-                    "Brainstorm team bonding activities for our work retreat"
+                    "Quiz me on ancient civilizations"
                   )
                 }
               >
-                <p>Brainstorm team bonding activities for our work retreat </p>
+                <p>Quiz me on ancient civilizations </p>
                 <img src={assets.message_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
-                  handleCardClick("How to Create a Gyroscope using Disc?")
+                  handleCardClick("Message to comfort a friend")
                 }
               >
-                <p>How to Create a Gyroscope using Disc?</p>
+                <p>Message to comfort a friend</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
               <div
